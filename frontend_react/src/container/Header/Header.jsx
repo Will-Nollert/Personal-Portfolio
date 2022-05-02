@@ -4,6 +4,7 @@ import { AppWrap } from "../../wrapper";
 
 import { images } from "../../constants";
 import "./Header.scss";
+import test3 from "./test3.png";
 
 const scaleVariants = {
   whileInView: {
@@ -35,6 +36,9 @@ const Header = () => (
         <div className="tag-cmp app__flex">
           <p className="p-text">FullStack Web Developer</p>
         </div>
+        <div className="tag-cmp app__flex">
+          <p className="p-text">Cyclist & Transportation Advocate</p>
+        </div>
       </div>
     </motion.div>
 
@@ -43,7 +47,7 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src={images.profile} alt="profile_bg" />
+      <img src={test3} alt="profile_bg" />
       <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: "easeInOut" }}
