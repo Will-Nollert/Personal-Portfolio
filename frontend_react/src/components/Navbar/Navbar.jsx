@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo"></div>
+      <div className="app__navbar-logo"> +1 (405) 404-8687</div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
@@ -20,7 +20,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
