@@ -3,6 +3,7 @@
 
 This project is my personal portfolio website. A fun feature of this react app is that is uses a CMS called "Sanity" on the front end which allows me to update my skills and projects quickly and with templating
 
+URL: https://nollertportfolio.netlify.app/
 
 
 ## Tech Stack
